@@ -1,0 +1,10 @@
+.row{
+    background-color: #7BA4C4;
+    padding: 20px;
+    color:#232946
+}
+.circulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
