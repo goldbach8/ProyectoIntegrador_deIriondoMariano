@@ -12,7 +12,7 @@
 .parte1, .parte2{
     display: inline-block;
 }
-.img-proyecto{
+#img-proyecto{
     width: 100%;
     box-shadow: 10px 10px 10px #232946;
 }

@@ -25,6 +25,7 @@ public class Persona {
     @NotNull
     private String descripcion;
     
+
     private String img;
 
     public Persona() {
@@ -34,7 +35,6 @@ public class Persona {
         this.nombre = nombre;
         this.apellido = apellido;
         this.descripcion = descripcion;
-        this.img = img;
     }
 
     public int getId() {
@@ -74,8 +74,11 @@ public class Persona {
     }
 
     public void setImg(String img) {
-        this.img = img;
+        this.img = descripcion;
     }
+}
+
+
 
     
-}
+
